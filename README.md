@@ -15,18 +15,25 @@ Allowed origins : config/allowedOrigins.js
 Allowed origins : index.js  
 
 
-#How to run this app 
+# How to run this app 
 
 ## Install dependecies in each directory
+
   $ npm install
   
 ## Run
 #### Server
+
   $ npm test
+  
 ### ServerWebSockets
+
   $ npm start
+  
 ### Client
+
   $ npm start
+  
   
   
   
