@@ -1,0 +1,51 @@
+.pop_up {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 250px;
+  margin-top: -5px;
+  margin-right: 10px;
+  animation: disapear 6s ease-in-out;
+}
+
+
+.pop_up .hidden{
+  display:none;
+}
+
+.pop_up input[type=checkbox] + label {
+  position:relative;
+} 
+
+.pop_up input[type=checkbox]:checked + label {
+  animation:  closing .3s forwards ease-in-out,
+              moving  .3s forwards ease-in-out;
+} 
+
+
+.pop_up .alert-message {
+    border-radius: 3px;
+    display:block;
+    padding: 6px;
+    padding-left: 20px;
+    color: white;
+}
+
+@keyframes  closing {
+  from {
+    opacity: 1; 
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes moving {
+  0%, 90% { top: 0; left: 0; }
+  100%  { top: -100px; left: 0; }
+}
+
+@keyframes disapear {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
