@@ -19,20 +19,20 @@ Allowed origins : index.js
 
 ## Install dependecies in each directory
 
-  $ npm install
+    $ npm install
   
 ## Run
 #### Server
 
-  $ npm test
+    $ npm test
   
 ### ServerWebSockets
 
-  $ npm start
+    $ npm start
   
 ### Client
 
-  $ npm start
+    $ npm start
   
   
   
